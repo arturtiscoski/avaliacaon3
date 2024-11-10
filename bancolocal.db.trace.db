@@ -1,0 +1,11 @@
+2024-11-10 16:43:06.518820-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REMEDIOS" not found; SQL statement:
+select * from remedios [42102-224]
+2024-11-10 18:12:55.585539-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REMEDIOS" not found; SQL statement:
+select * from remedios [42102-224]
+2024-11-10 18:12:57.156059-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from receita\000d\000a\000d\000a[*]select * from remedio"; SQL statement:
+select * from receita
+
+select * from remedio [42000-224]
